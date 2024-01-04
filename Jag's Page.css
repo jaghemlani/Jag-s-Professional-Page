@@ -1,0 +1,79 @@
+body {
+    font-family: Cambria, Cochin;
+    
+}
+
+header {
+    display: flex;
+    margin-top: 30px;
+    grid-template-columns: 200px;
+    display: grid;
+    margin-left: 40px;
+    border-radius: 100px;
+    background-color: bisque;
+    background-position: 100px;
+    background-image:url(https://5.imimg.com/data5/SELLER/Default/2022/12/ES/NN/LJ/44565540/3d-wallpaper-500x500.png) ;
+    height: 300px;
+    border: 500px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: solid;
+   color: rgb(90, 4, 17);
+   padding-left: 50px;
+    
+}
+
+.resumeabout {
+    margin-top: 30px;
+    grid-template-columns: 100px 100px;
+    display: grid;
+    margin-left: 1600px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    float: inline-start;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+.whoisjag {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(90, 4, 17);
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 50px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.jagsbio {
+    color: rgb(90, 4, 17);
+    font-size: 15px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.button1 {
+    text-decoration: underline;
+    color: rgb(90, 4, 17);
+    background-color: bisque;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+
+.button2 {
+    text-decoration: underline;
+    color: rgb(90, 4, 17);
+    background-color: bisque;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 30px;
+}
