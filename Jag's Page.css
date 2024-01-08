@@ -1,79 +1,182 @@
-body {
-    font-family: Cambria, Cochin;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
     
-}
-
-header {
-    display: flex;
-    margin-top: 30px;
-    grid-template-columns: 200px;
-    display: grid;
-    margin-left: 40px;
-    border-radius: 100px;
-    background-color: bisque;
-    background-position: 100px;
-    background-image:url(https://5.imimg.com/data5/SELLER/Default/2022/12/ES/NN/LJ/44565540/3d-wallpaper-500x500.png) ;
-    height: 300px;
-    border: 500px;
-}
-
-.name {
-    font-size: 40px;
-    font-weight: bolder;
-    text-decoration: solid;
-   color: rgb(90, 4, 17);
-   padding-left: 50px;
+    }
     
-}
-
-.resumeabout {
-    margin-top: 30px;
-    grid-template-columns: 100px 100px;
-    display: grid;
-    margin-left: 1600px;
-    font-size: 25px;
-    font-weight: bolder;
-    font-style: oblique;
-    float: inline-start;
-    justify-content: space-between;
-    border-radius: 50px;
-    background-color: bisque;
-}
-
-.whoisjag {
-    font-size: 30px;
-    font-weight: bolder;
-    color: rgb(90, 4, 17);
-    display: grid;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border: 50px;
-    margin-top: 200px;
-    margin-left: 20px;
-}
-
-.jagsbio {
-    color: rgb(90, 4, 17);
-    font-size: 15px;
-    border-radius: 50px;
-    position: relative;
-}
-
-.button1 {
-    text-decoration: underline;
-    color: rgb(90, 4, 17);
-    background-color: bisque;
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 30px;
+    body {
+        background: #080808;
+    }
     
-}
-
-.button2 {
-    text-decoration: underline;
-    color: rgb(90, 4, 17);
-    background-color: bisque;
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 30px;
-}
+    .header {
+        width: 100%;
+        height: 100vh;
+       
+    }
+    
+    .container {
+        padding: 10px 10%;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .name {
+        width: 600x;
+        height: 350px;
+        padding-right: 50px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        position: relative;
+    }
+    
+    nav ul li a::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+    
+    }
+    
+    nav ul li a:hover::after {
+        width: 100%;
+        background-color: aqua;
+    
+    }
+    
+    .header-text {
+        color: white;
+        margin-top: 20%;
+        font-size: 30px;
+    }
+    
+    .header-text h1 {
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    
+    .header-text h1 span {
+        color: red;
+    }
+    
+    #about {
+        padding: 80px 0;
+        color: white;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .aboutcolumn1 {
+        flex-basis: 35%;
+    }
+    .aboutcolumn1 img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .aboutcolum2 {
+        flex-basis: 40%;
+        display: flex;
+        position: relative;
+    
+        
+    }
+    
+    .whoisjag {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    
+    .aboutmetext {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .Portfolio {
+       
+        display: flex;
+        position: relative;
+        font-size: 30px;
+        padding-top: 100px;
+        font-weight: bold;
+        flex-direction: column;
+       
+        }
+    
+    .row {
+        display: flex;
+    
+    }
+    
+    .Portfolio p a {
+        text-decoration: none;
+    }
+    
+    p img {
+        height: 200px;
+        text-decoration: none;
+        display: inline-flex;
+    
+    }
+    
+    .headername { 
+        font-size: 40px;
+        color: white;
+        width: auto;
+    
+    }
+    
+    .horiseon {
+        text-decoration: none;
+    }
+    
+    .Contact {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    
+    .contactinfo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header-text {
+            color: white;
+            margin-top: 20%;
+            font-size: 20px;
+        }
+        .header-text h1 span {
+            color: red;
+            font-size: 20px;
+        }
+        
+    }
+    
+    
+    
