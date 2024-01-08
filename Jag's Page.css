@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    color: white;
-    
-    }
-    
     body {
         background: #080808;
     }
@@ -19,6 +10,7 @@
     
     .container {
         padding: 10px 10%;
+        color: white;
     }
     
     nav {
@@ -79,10 +71,7 @@
         color: red;
     }
     
-    #about {
-        padding: 80px 0;
-        color: white;
-    }
+
     .row {
         display: flex;
         justify-content: space-between;
@@ -96,17 +85,11 @@
         width: 100%;
         border-radius: 15px;
     }
-    .aboutcolum2 {
-        flex-basis: 40%;
-        display: flex;
-        position: relative;
-    
-        
-    }
-    
+   
     .whoisjag {
         font-size: 40px;
         font-weight: bolder;
+        padding-top: 100px;
     }
     
     .aboutmetext {
@@ -122,22 +105,18 @@
         padding-top: 100px;
         font-weight: bold;
         flex-direction: column;
-       
-        }
+        color: white;
+       }
     
-    .row {
-        display: flex;
     
-    }
-    
-    .Portfolio p a {
+       .Portfolio p a {
         text-decoration: none;
+        color: white;
     }
     
     p img {
         height: 200px;
-        text-decoration: none;
-        display: inline-flex;
+       display: inline-flex;
     
     }
     
@@ -148,14 +127,12 @@
     
     }
     
-    .horiseon {
-        text-decoration: none;
-    }
-    
     .Contact {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
-        padding-top: 50px;
+        padding-top: 150px;
+        text-decoration: underline white;
+        color: red;
     }
     
     .contactinfo {
@@ -163,6 +140,11 @@
         justify-content: space-between;
         width: 100%;
         padding-top: 30px;
+        text-decoration: underline white;
+        
+        color: red
+
+        
     }
     
     @media only screen and (max-width: 600px) {
