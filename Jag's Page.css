@@ -54,7 +54,7 @@
         width: 100%;
         background-color: aqua;
     
-    }
+    } /*add psuedo element to nav buttons*/
     
     .header-text {
         color: white;
@@ -76,7 +76,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    }
+    }/*to align my projects in protfolio*/
     
     .aboutcolumn1 {
         flex-basis: 35%;
@@ -106,7 +106,8 @@
         font-weight: bold;
         flex-direction: column;
         color: white;
-       }
+    
+       } /*to align my projects in protfolio*/
     
     
        .Portfolio p a {
@@ -141,7 +142,6 @@
         width: 100%;
         padding-top: 30px;
         text-decoration: underline white;
-        
         color: red
 
         
